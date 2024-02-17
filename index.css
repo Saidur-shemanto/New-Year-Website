@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,6 +17,7 @@ body>div {
 
 .first {
     background: linear-gradient(to bottom, black, transparent), url('media/Banner Image.png');
+    font-family: "Merriweather", serif;
     height: 600px;
     width: 1320px;
     color: white;
@@ -27,13 +31,13 @@ body>div {
 }
 
 .first h1 {
-    font-size: 50px;
+    font-size: 80px;
     margin-top: 0px;
     margin-bottom: 0px
 }
 
 .first p {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 0px;
 }
 
@@ -50,7 +54,21 @@ body>div {
 }
 
 .sectext p {
-    font-size: 42px;
+    font-size: 88px;
+    margin-bottom: 50px;
+
+}
+
+.sectext h5 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 0;
+
+}
+
+.sectext h1 {
+    font-size: 48px;
+    margin-top: 5px;
 
 }
 
@@ -72,10 +90,30 @@ h5 {
 
 .thirtext {
     color: white;
+    padding-left: 30px;
+
+}
+
+.thirtext>h1 {
+    font-family: "Merriweather", serif;
+    font-size: 64px;
 }
 
 .but {
     margin-left: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.thirtext p {
+    font-size: 18px;
+}
+
+.thirtext p:nth-child(odd) {
+    width: 80%;
+    opacity: 0.8;
+    font-family: "Inter", sans-serif;
+
 }
 
 .fourth {
@@ -89,6 +127,31 @@ h5 {
     font-weight: bolder;
 }
 
+.fourth p:nth-child(-n+3) {
+    font-size: 42px;
+
+
+}
+
+.fourth p:nth-child(1) {
+    margin-bottom: 0px;
+
+
+}
+
+.fourth p:nth-child(2) {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.fourth p:nth-child(3) {
+    margin-top: 0px;
+
+
+}
+
 .fourth span {
     color: red;
 
@@ -97,36 +160,75 @@ h5 {
 
 .secp {
     background-color: red;
-    padding: 10px;
+    padding: 20px;
     color: white;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 .fifth {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 463px;
     width: 1320px;
 }
 
 .fifth .fiftext1 {
-    word-wrap: break-word;
     max-width: 350px;
 
 }
 
 .fifth .fiftext2 {
-    word-wrap: break-word;
     max-width: 350px;
 
 }
 
-.fifth .fifImage .circle_image {
+
+.circle_image {
     border-radius: 50%;
-    border: 4px solid red;
+    border: 10px solid red;
     padding: 10px;
 
+}
+
+.fiftext1 h3 {
+    color: red;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.fiftext1 h1 {
+    margin-top: 0;
+}
+
+.fiftext2 h1 {
+    color: red;
+
+}
+
+.sixText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixText span {
+    color: red;
+}
+
+.sixText p:nth-child(2) {
+    font-size: 72px;
+    margin-bottom: 10px;
+    font-family: "Merriweather", serif;
+    margin-top: 0px;
+}
+
+.sixText p:nth-child(3) {
+    text-align: center;
+    margin-top: 0px;
+    width: 70%;
 }
 
 .siximage {
@@ -200,6 +302,15 @@ h5 {
 .sevf3 img,
 .sevl3 img {
     flex: 1;
+}
+
+.sevtext p:nth-child(1) {
+    font-size: 24px;
+    color: red;
+}
+
+.sevtext h1 {
+    font-family: "Merriweather", serif;
 }
 
 
