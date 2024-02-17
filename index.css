@@ -13,6 +13,7 @@ body {
 body>div {
     margin: 50px 0px;
     border-radius: 10px;
+    width: 1320px;
 }
 
 .first {
@@ -231,8 +232,11 @@ h5 {
     width: 70%;
 }
 
+.sixth {}
+
 .siximage {
     position: relative;
+
 
 
 
@@ -241,10 +245,12 @@ h5 {
 .sm1 {
     background-color: white;
     width: 60%;
+
 }
 
 .sm2 {
     width: 40%;
+
 }
 
 .sm2 img {
@@ -256,6 +262,7 @@ h5 {
 .sm12 {
 
     display: flex;
+    width: 100%;
 }
 
 .sm3 {
@@ -364,10 +371,12 @@ input:focus {
 footer {
     background-color: black;
     width: 100%;
-    height: 500px;
+    height: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 24px;
+
 }
 
 footer>div {
@@ -385,6 +394,10 @@ footer>div {
 .ft1,
 .ft3 {
     display: flex;
+}
+
+.ft3 {
+    padding-bottom: 50px;
 }
 
 .ft1img {
