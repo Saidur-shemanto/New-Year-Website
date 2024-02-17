@@ -1,0 +1,254 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+body>div {
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+
+.first {
+    background: linear-gradient(to bottom, black, transparent), url('Media/Banner Image.png');
+    height: 600px;
+    width: 1320px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.first h1 {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.first p {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 806px;
+    width: 806px;
+}
+
+.sectext p {
+    font-size: 42px;
+
+}
+
+.sectext>p,
+h5 {
+    color: red;
+
+}
+
+.third {
+    background-image: linear-gradient(to right, black, transparent), url('Media/Vectorrr.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1320px;
+
+}
+
+.thirtext {
+    color: white;
+}
+
+.but {
+    margin-left: 20px;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, pink, white);
+    height: 482px;
+    width: 1320px;
+    font-weight: bolder;
+}
+
+.fourth span {
+    color: red;
+
+
+}
+
+.secp {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 463px;
+    width: 1320px;
+}
+
+.fifth .fiftext1 {
+    word-wrap: break-word;
+    max-width: 350px;
+
+}
+
+.fifth .fiftext2 {
+    word-wrap: break-word;
+    max-width: 350px;
+
+}
+
+.fifth .fifImage .circle_image {
+    border-radius: 50%;
+    border: 4px solid red;
+    padding: 10px;
+
+}
+
+.siximage {
+    position: relative;
+
+
+
+}
+
+.sm1 {
+    background-color: white;
+    width: 60%;
+}
+
+.sm2 {
+    width: 40%;
+}
+
+.sm2 img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.sm12 {
+
+    display: flex;
+}
+
+.sm3 {
+
+    width: 100%;
+}
+
+.absimg1 {
+    position: absolute;
+    top: 150px;
+}
+
+.absimg2 {
+    position: absolute;
+    left: 650px;
+
+
+}
+
+
+.sectext {
+    position: relative;
+}
+
+.sevf3,
+.sevl3 {
+    display: flex;
+    margin: 5px 1px;
+
+}
+
+.sevf3 img:hover,
+.sevl3 img:hover {
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.sevf3 img {
+    width: 30%;
+}
+
+.sevl3 img {
+    width: 30%;
+}
+
+.eight {
+    background-color: #FFF2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 616px;
+    width: 1320px;
+}
+
+.etform {
+    display: flex;
+
+}
+
+input {
+    border-radius: 50px 0 0 50px
+}
+
+.subut {
+    background-color: red;
+    color: #fff;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ft1 {
+    margin-top: 70px;
+}
+
+.ft1,
+.ft2,
+.ft3 {
+    display: flex;
+    color: white;
+
+}
+
+.ft1 p,
+.ft2 p,
+.ft3 p {
+    width: 50%;
+}
