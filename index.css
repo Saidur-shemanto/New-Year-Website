@@ -181,23 +181,29 @@ h5 {
 .sevf3,
 .sevl3 {
     display: flex;
-    margin: 5px 1px;
+    width: 100%;
+    margin: 5px 0px;
+    gap: 20px;
 
+}
+
+.sevf3 {
+    margin-bottom: 20px;
 }
 
 .sevf3 img:hover,
 .sevl3 img:hover {
-    border: 10px solid black;
+    box-shadow: #242424 4px 10px 16px;
     border-radius: 20px;
 }
 
-.sevf3 img {
-    width: 30%;
+.sevf3 img,
+.sevl3 img {
+    flex: 1;
 }
 
-.sevl3 img {
-    width: 30%;
-}
+
+
 
 .eight {
     background-color: #FFF2F2;
@@ -210,13 +216,27 @@ h5 {
     width: 1320px;
 }
 
-.etform {
+form {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    width: 640px;
+
 
 }
 
 input {
-    border-radius: 50px 0 0 50px
+    border-radius: 50px 0 0 50px;
+    height: 50px;
+    padding-left: 24px;
+    width: 80%;
+    border: none;
+
+}
+
+input:focus {
+    outline: none;
 }
 
 .subut {
@@ -224,6 +244,10 @@ input {
     color: #fff;
     border-radius: 0 50px 50px 0;
     cursor: pointer;
+    padding: 0px 16px 0px 12px;
+    height: 50px;
+    width: 20%;
+
 }
 
 footer {
@@ -235,20 +259,50 @@ footer {
     text-align: center;
 }
 
-.ft1 {
-    margin-top: 70px;
-}
-
-.ft1,
-.ft2,
-.ft3 {
-    display: flex;
+footer>div {
     color: white;
 
 }
 
-.ft1 p,
-.ft2 p,
-.ft3 p {
+.ft1txt,
+.ft1img,
+.ft3>p {
+    padding-top: 50px;
     width: 50%;
+}
+
+.ft1,
+.ft3 {
+    display: flex;
+}
+
+.ft1img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ft1img>div {
+    display: flex;
+    align-items: center;
+
+}
+
+.ft1img img {
+    aspect-ratio: 1;
+    height: 15px;
+
+}
+
+.ft1img p {
+    padding-left: 10px;
+}
+
+.ftimg {
+    padding: 50px 0px;
+}
+
+hr {
+    border-color: rgb(57, 56, 56);
+    width: 80%;
 }
