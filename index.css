@@ -91,8 +91,12 @@ h5 {
 
 .thirtext {
     color: white;
-    padding-left: 30px;
+    margin-left: 100px;
 
+}
+
+.thirImage {
+    margin-right: 100px;
 }
 
 .thirtext>h1 {
@@ -104,6 +108,7 @@ h5 {
     margin-left: 20px;
     font-size: 20px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .thirtext p {
@@ -165,6 +170,7 @@ h5 {
     color: white;
     border-radius: 5px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .fifth {
@@ -415,6 +421,7 @@ footer>div {
 .ft1img img {
     aspect-ratio: 1;
     height: 15px;
+
 
 }
 
