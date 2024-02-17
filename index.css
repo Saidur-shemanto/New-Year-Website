@@ -13,7 +13,7 @@ body>div {
 }
 
 .first {
-    background: linear-gradient(to bottom, black, transparent), url('Media/Banner Image.png');
+    background: linear-gradient(to bottom, black, transparent), url('media/Banner Image.png');
     height: 600px;
     width: 1320px;
     color: white;
@@ -61,7 +61,7 @@ h5 {
 }
 
 .third {
-    background-image: linear-gradient(to right, black, transparent), url('Media/Vectorrr.png');
+    background-image: linear-gradient(to right, black, transparent), url('media/Vectorrr.png');
     display: flex;
     justify-content: center;
     align-items: center;
